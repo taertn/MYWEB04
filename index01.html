@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Monomaniac+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+ 
+    <style>
+      * {
+        background-color: black;
+      }
+      .container {
+        width: 100%;
+      }
+      .navbar-menu a {
+        color: white;
+        text-decoration: none;
+        font-family: monomaniac one;
+        font-size: 1.5rem;        
+      }
+      .navbar-hello span {
+        color: #01d5a2;
+        font-family: itim;
+        font-size: 3.5rem; /*1 rem = 16px*/
+      }
+      .navbar-social i {
+        color: white;
+        font-size: 1.5rem;
+      }
+      .navbar{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin: 50px 150px; /*บ-ล  ซ-ข*/
+      }
+      .navbar-menu{
+        width: 100%;
+      }
+      .navbar-hello{
+        width: 100%;
+        text-align: center;
+      }
+      .navbar-social{
+        width: 100%;
+        text-align: end;
+      }
+      a:hover{
+        color: #01d5a2;
+      }
+      #aboutme{
+        margin: 0 30px;
+      }
+      .bi-twitter{
+        margin: 0 20px 0 10px; /*บ ข ล ซ*/
+      }
+      .bi-instagram{
+        margin: 0 10px 0 20px; /*บ ข ล ซ*/
+      }
+      .showtitle h1{
+        font-family: monomaniac one;
+        color: white;
+        font-size: 2.8rem;
+        text-align: center;
+      }
+      .showtitle{
+        margin-top: 100px;
+      }
+      #fwd{
+        color: #01d5a2;
+      }
+      .showimage{
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+      }
+      .showimage img{
+        border: #01d5a2 4px solid;
+        border-radius: 100%;
+        padding: 10px;
+        width: 350px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ส่วนของ NavBar -->
+      <div class="navbar"">
+        <div class="navbar-menu">
+          <a href="#">Protfolio</a>
+          <a href="#" id="aboutme">About Me</a>
+          <a href="#">Get In Touch</a>
+        </div>
+ 
+        <div class="navbar-hello">
+          <span>Hello</span>
+        </div>
+ 
+        <div class="navbar-social">
+          <i class="bi bi-github"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>          
+          <i class="bi bi-linkedin"></i>
+        </div>
+      </div>
+ 
+      <!-- ส่วนแสดงชื่อ -->
+      <div class="showtitle">
+         <h1 id="fwd">
+            ID: 6519410047
+        </h1>
+        <h1>
+            Rattana Pattanatrakuleak
+        </h1>
+        <h1 id="fwd">
+            Freelance Web Devleoper
+        </h1>
+        <h1>
+            Based In THAILAND
+        </h1>
+      </div>
+ 
+      <!-- ส่วนแสดงรูป -->
+      <div class="showimage">
+        <img src="./images/person.png" alt="person">
+      </div>
+ 
+      <!-- ลิงค์ไปหน้า index 2 -->
+       <div style="display: flex; justify-content: center; margin-top:40px">
+          <a href="./index02.html"
+            style="color: white; text-decoration: none;
+                   font-family: monomaniac one; font-size: 2rem;">
+            -- Open INDEX2 --
+          </a>
+       </div>
+    </div>
+  </body>
+</html>

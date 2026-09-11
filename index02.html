@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Monomaniac+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme:{
+          extend:{
+            fontFamily:{
+              itim:["Itim"],
+              monomaniac:["Monomaniac One"]
+            },
+          },
+        },
+      };
+    </script>
+ 
+  </head>
+<body class="bg-black">
+    <div class="">
+      <!-- ส่วนของ NavBar -->
+      <div class="flex mt-8 ">
+          <div class="text-white w-full ml-15 text-xl flex gap-5">
+            <a href="#" class="font-monomaniac">Protfolio</a>
+            <a href="#" class="font-monomaniac">About Me</a>
+            <a href="#" class="font-monomaniac">Get In Touch</a>
+          </div>
+ 
+          <div class="text-teal-400 w-full text-center">
+            <span class="text-5xl font-itim">Hello</span>
+          </div>
+ 
+          <div class="text-white w-full text-end mr-15 text-xl flex justify-end gap-5">
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>          
+            <i class="bi bi-linkedin"></i>
+          </div>
+      </div>
+ 
+      <!-- ส่วนแสดงชื่อ -->
+      <div class="mt-30">
+        <h1 class="text-teal-400 text-5xl text-center mb-5 font-monomaniac">
+            ID: 6519410047
+        </h1>
+        <h1 class="text-white text-5xl text-center mb-5 font-monomaniac">
+            Rattana Pattanatrakuleak
+        </h1>
+        <h1 class="text-teal-400 text-5xl text-center font-monomaniac">
+            Freelance Web Devleoper
+        </h1>
+        <h1 class="text-white text-5xl text-center mt-5 font-monomaniac">
+            Based In THAILAND
+        </h1>
+      </div>
+ 
+      <!-- ส่วนแสดงรูป -->
+      <div class="flex justify-center mt-20">
+        <img class="border border-2 border-teal-400 rounded-full p-2"
+             src="./images/person.png" alt="person">
+      </div>
+ 
+      <!-- ลิงค์ไปหน้า index -->
+       <div class="flex justify-center mt-15" >
+          <a href="./index01.html" class="text-white font-monomaniac text-3xl" >
+            -- Open INDEX1 --
+          </a>
+       </div>
+    </div>
+</body>
+</html>
